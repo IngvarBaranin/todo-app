@@ -6,11 +6,12 @@ import Todos from "./components/todos";
 class App extends Component {
     state = {
         currentComponent: 1,
-        username: "",
+        username: localStorage.getItem("username") || "",
     };
 
     handleName = (username) => {
         this.setState({ username: username }, () => {});
+        localStorage.setItem("username", username);
     };
 
     render() {
