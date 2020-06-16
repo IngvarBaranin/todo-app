@@ -13,7 +13,7 @@ class Name extends Component {
         return (
             <React.Fragment>
                 <h1 id="name">What is your name?</h1>
-                <div id="input">
+                <div id="input" type="text">
                     <input
                         autoFocus
                         onKeyDown={this.handleKeyDown}

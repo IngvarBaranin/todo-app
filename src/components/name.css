@@ -3,6 +3,14 @@ input {
     width: 80vh;
     font-size: 50px;
     text-indent: 15px;
+    background: rgb(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: solid;
+    border-color: rgb(0, 153, 255);
 }
 
 div#input {
@@ -12,7 +20,7 @@ div#input {
 }
 
 h1#name {
-    height: 50vh;
+    height: 40vh;
     font-size: 100px;
     color: white;
     display: flex;
