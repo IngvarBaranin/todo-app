@@ -1,20 +1,9 @@
 import React, { Component } from "react";
+import "./todos.css";
 
 class Todos extends Component {
     render() {
-        return (
-            <h1
-                style={{
-                    fontSize: 100,
-                    height: "50vh",
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                }}
-            >
-                Hello, {this.props.username}!
-            </h1>
-        );
+        return <h1 id="welcome">Hello, {this.props.username}!</h1>;
     }
 }
 
