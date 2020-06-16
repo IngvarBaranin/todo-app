@@ -11,17 +11,19 @@ class Name extends Component {
 
     render() {
         return (
-            <div id="col">
+            <React.Fragment>
                 <h1 id="name">What is your name?</h1>
-                <input
-                    autoFocus
-                    onKeyDown={this.handleKeyDown}
-                    className="lg m-2"
-                    id="exampleInputEmail1"
-                    aria-describedby="emailHelp"
-                ></input>
-                <small>Press Enter when ready</small>
-            </div>
+                <div id="input">
+                    <input
+                        autoFocus
+                        onKeyDown={this.handleKeyDown}
+                        className="lg m-2"
+                        id="exampleInputEmail1"
+                        aria-describedby="emailHelp"
+                    ></input>
+                    <small>Press Enter when ready</small>
+                </div>
+            </React.Fragment>
         );
     }
 }

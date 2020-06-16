@@ -5,21 +5,22 @@ input {
     text-indent: 15px;
 }
 
-h1#name {
-    font-size: 100px;
-    color: white;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-div#col {
+div#input {
+    height: 40vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+
+h1#name {
+    height: 50vh;
+    font-size: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 small {
+    text-align: center;
     color: white;
 }
